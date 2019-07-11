@@ -130,6 +130,15 @@ I have put the *.pyns files in this repo I used to create the UML diagrams, but 
 Inline-style: 
 ![alt text](https://github.com/jabelk/yangify_rosetta_model_visuals/blob/master/Yangify_uml.png "Logo Title Text 1")
 
-### Yangify UML
+### yangify and rosetta translate UML
 Inline-style: 
 ![alt text](https://github.com/jabelk/yangify_rosetta_model_visuals/blob/master/yangify_rosetta_translate.png "Logo Title Text 1")
+
+
+### yangify and rosetta parser for vlan only UML
+Inline-style: 
+![alt text](https://github.com/jabelk/yangify_rosetta_model_visuals/blob/master/yangify_rosetta_parser_vlan.png "Logo Title Text 1")
+
+### yangify and rosetta parser for interfaces only UML
+Inline-style: 
+![alt text](https://github.com/jabelk/yangify_rosetta_model_visuals/blob/master/yangify_rosetta_parser_interfaces.png "Logo Title Text 1")
