@@ -1,0 +1,31 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'ConfigTree', 'x':911, 'y':61, 'width':94, 'height':124, 'attrs': '_children', 'meths': '__init__|new_section|add_command|pop_section|__bool__|to_string'}
+{'type':'umlshape', 'id':'TranslatorData', 'x':228, 'y':31, 'width':128, 'height':224, 'attrs': 'schema|root_result|extra|running|candidate|replace|key|path|result|keys', 'meths': 'init|pre_process|pre_process_list|post|__init__|post_process_list|post_process'}
+{'type':'umlshape', 'id':'Translator', 'x':677, 'y':233, 'width':196, 'height':284, 'attrs': 'yy|dm|Yangify', 'meths': '_obj_changed|_process_container|_get_inst|_append_child_path|_obj_remove_running|_extract_key|__init__|__str__|_get_child|_present_in_running|_fill_to_remove|_get_key_name|_get_inst_value|_append_node_to_path|_obj_forward_progress_leaf|_present_in_candidate|_process_list|_obj_forward_progress_container|_process_leaf|_process_container_node'}
+{'type':'umlshape', 'id':'RootTranslator', 'x':1011, 'y':672, 'width':128, 'height':74, 'attrs': '', 'meths': '__init__|process|__str__'}
+{'type':'umlshape', 'id':'copy.deepcopy', 'x':694, 'y':604, 'width':119, 'height':24, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'ParserData', 'x':561, 'y':2, 'width':106, 'height':184, 'attrs': 'schema|extra|native|key|path|keys|root_native', 'meths': 'init|pre_process|post|__init__|post_process|extract_elements'}
+{'type':'umlshape', 'id':'ModelFilter', 'x':783, 'y':68, 'width':102, 'height':104, 'attrs': 'include|exclude', 'meths': '__init__|_check_inc|check'}
+{'type':'umlshape', 'id':'Driver', 'x':239, 'y':453, 'width':70, 'height':114, 'attrs': 'parser|translator|datamodel', 'meths': 'merge|translate|parse'}
+{'type':'umlshape', 'id':'IOSDriverOpenconfig', 'x':32, 'y':383, 'width':170, 'height':74, 'attrs': 'parser|translator|datamodel', 'meths': ''}
+{'type':'umlshape', 'id':'IOSDriverNTC', 'x':226, 'y':301, 'width':111, 'height':74, 'attrs': 'parser|translator|datamodel', 'meths': ''}
+{'type':'umlshape', 'id':'JunosDriverOpenconfig', 'x':16, 'y':521, 'width':186, 'height':74, 'attrs': 'parser|translator|datamodel', 'meths': ''}
+{'type':'umlshape', 'id':'JunosDriverNTC', 'x':258, 'y':696, 'width':128, 'height':74, 'attrs': 'parser|translator|datamodel', 'meths': ''}
+{'type':'umlshape', 'id':'Yangify', 'x':441, 'y':43, 'width':76, 'height':114, 'attrs': 'native|metadata|path|root_native', 'meths': 'init|pre_process'}
+{'type':'umlshape', 'id':'parser.ParserData', 'x':376, 'y':274, 'width':153, 'height':24, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'VlanConfig', 'x':511, 'y':575, 'width':94, 'height':94, 'attrs': 'vlans', 'meths': 'vlan_id|status|name'}
+{'type':'umlshape', 'id':'Vlan', 'x':1014, 'y':516, 'width':52, 'height':74, 'attrs': 'config', 'meths': 'vlan_id'}
+{'type':'umlshape', 'id':'VlanConfigVlans', 'x':465, 'y':395, 'width':136, 'height':94, 'attrs': 'vlan_id', 'meths': 'active|vlan_id|name'}
+{'type':'edge', 'id':'RootTranslator_to_Translator', 'source':'RootTranslator', 'target':'Translator', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'copy.deepcopy_to_Translator', 'source':'copy.deepcopy', 'target':'Translator', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'IOSDriverNTC_to_Driver', 'source':'IOSDriverNTC', 'target':'Driver', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'IOSDriverOpenconfig_to_Driver', 'source':'IOSDriverOpenconfig', 'target':'Driver', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'JunosDriverNTC_to_Driver', 'source':'JunosDriverNTC', 'target':'Driver', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'JunosDriverOpenconfig_to_Driver', 'source':'JunosDriverOpenconfig', 'target':'Driver', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Yangify_to_parser.ParserData', 'source':'Yangify', 'target':'parser.ParserData', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Yangify_to_ParserData', 'source':'Yangify', 'target':'ParserData', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'VlanConfig_to_Translator', 'source':'VlanConfig', 'target':'Translator', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'VlanConfigVlans_to_Translator', 'source':'VlanConfigVlans', 'target':'Translator', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Vlan_to_Translator', 'source':'Vlan', 'target':'Translator', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Yangify_to_TranslatorData', 'source':'Yangify', 'target':'TranslatorData', 'uml_edge_type': 'generalisation'}

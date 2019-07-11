@@ -1,0 +1,43 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'copy.deepcopy', 'x':956, 'y':605, 'width':119, 'height':24, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'ParserData', 'x':138, 'y':511, 'width':106, 'height':184, 'attrs': 'schema|extra|native|key|path|keys|root_native', 'meths': 'init|pre_process|post|__init__|post_process|extract_elements'}
+{'type':'umlshape', 'id':'Parser', 'x':837, 'y':327, 'width':118, 'height':144, 'attrs': 'model_filter|yy|Yangify', 'meths': '_process_container|_get_key_name|__init__|_get_child|__str__|_process_list'}
+{'type':'umlshape', 'id':'RootParser', 'x':1191, 'y':579, 'width':94, 'height':114, 'attrs': 'config|state|dm', 'meths': '__init__|process|__str__'}
+{'type':'umlshape', 'id':'ParseResult', 'x':586, 'y':680, 'width':102, 'height':104, 'attrs': 'root|datamodel', 'meths': '__init__|raw_value|peek'}
+{'type':'umlshape', 'id':'Driver', 'x':265, 'y':61, 'width':70, 'height':114, 'attrs': 'parser|translator|datamodel', 'meths': 'merge|translate|parse'}
+{'type':'umlshape', 'id':'IOSDriverOpenconfig', 'x':320, 'y':247, 'width':170, 'height':74, 'attrs': 'parser|translator|datamodel', 'meths': ''}
+{'type':'umlshape', 'id':'JunosDriverOpenconfig', 'x':121, 'y':255, 'width':186, 'height':74, 'attrs': 'parser|translator|datamodel', 'meths': ''}
+{'type':'umlshape', 'id':'IOSParser', 'x':405, 'y':514, 'width':112, 'height':64, 'attrs': 'interfaces|network_instances', 'meths': ''}
+{'type':'umlshape', 'id':'Yangify', 'x':28, 'y':523, 'width':76, 'height':114, 'attrs': 'native|metadata|path|root_native', 'meths': 'init|pre_process'}
+{'type':'umlshape', 'id':'parser.ParserData', 'x':17, 'y':736, 'width':153, 'height':24, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'parser.RootParser', 'x':321, 'y':641, 'width':153, 'height':24, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Ethernet', 'x':1107, 'y':293, 'width':88, 'height':54, 'attrs': 'switched_vlan', 'meths': ''}
+{'type':'umlshape', 'id':'SubinterfaceConfig', 'x':686, 'y':565, 'width':161, 'height':64, 'attrs': '', 'meths': 'description|index'}
+{'type':'umlshape', 'id':'Subinterface', 'x':516, 'y':224, 'width':111, 'height':74, 'attrs': 'config', 'meths': 'index'}
+{'type':'umlshape', 'id':'Subinterfaces', 'x':1005, 'y':392, 'width':119, 'height':54, 'attrs': 'subinterface', 'meths': ''}
+{'type':'umlshape', 'id':'InterfaceConfig', 'x':568, 'y':426, 'width':136, 'height':84, 'attrs': '', 'meths': 'description|enabled|name|type'}
+{'type':'umlshape', 'id':'Interface', 'x':693, 'y':156, 'width':88, 'height':94, 'attrs': 'subinterfaces|config|ethernet', 'meths': 'name'}
+{'type':'umlshape', 'id':'Interfaces', 'x':807, 'y':104, 'width':94, 'height':54, 'attrs': 'interface', 'meths': ''}
+{'type':'umlshape', 'id':'NetowrkInstanceConfig', 'x':948, 'y':139, 'width':186, 'height':54, 'attrs': '', 'meths': 'name'}
+{'type':'umlshape', 'id':'NetworkInstance', 'x':534, 'y':318, 'width':136, 'height':84, 'attrs': 'config|vlans', 'meths': 'name'}
+{'type':'umlshape', 'id':'NetworkInstances', 'x':1046, 'y':216, 'width':144, 'height':54, 'attrs': 'network_instance', 'meths': ''}
+{'type':'umlshape', 'id':'JunosParser', 'x':267, 'y':505, 'width':112, 'height':64, 'attrs': 'interfaces|network_instances', 'meths': ''}
+{'type':'edge', 'id':'RootParser_to_Parser', 'source':'RootParser', 'target':'Parser', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'copy.deepcopy_to_Parser', 'source':'copy.deepcopy', 'target':'Parser', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'IOSDriverOpenconfig_to_Driver', 'source':'IOSDriverOpenconfig', 'target':'Driver', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'JunosDriverOpenconfig_to_Driver', 'source':'JunosDriverOpenconfig', 'target':'Driver', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Yangify_to_parser.ParserData', 'source':'Yangify', 'target':'parser.ParserData', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'IOSParser_to_parser.RootParser', 'source':'IOSParser', 'target':'parser.RootParser', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Ethernet_to_Parser', 'source':'Ethernet', 'target':'Parser', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Yangify_to_ParserData', 'source':'Yangify', 'target':'ParserData', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Subinterfaces_to_Parser', 'source':'Subinterfaces', 'target':'Parser', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Subinterface_to_Parser', 'source':'Subinterface', 'target':'Parser', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'InterfaceConfig_to_Parser', 'source':'InterfaceConfig', 'target':'Parser', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Interfaces_to_Parser', 'source':'Interfaces', 'target':'Parser', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'SubinterfaceConfig_to_Parser', 'source':'SubinterfaceConfig', 'target':'Parser', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Interface_to_Parser', 'source':'Interface', 'target':'Parser', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'NetworkInstances_to_Parser', 'source':'NetworkInstances', 'target':'Parser', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'NetworkInstance_to_Parser', 'source':'NetworkInstance', 'target':'Parser', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'NetowrkInstanceConfig_to_Parser', 'source':'NetowrkInstanceConfig', 'target':'Parser', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'JunosParser_to_parser.RootParser', 'source':'JunosParser', 'target':'parser.RootParser', 'uml_edge_type': 'generalisation'}
