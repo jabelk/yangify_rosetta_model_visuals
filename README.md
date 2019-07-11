@@ -130,4 +130,6 @@ I have put the *.pyns files in this repo I used to create the UML diagrams, but 
 Inline-style: 
 ![alt text](https://github.com/jabelk/yangify_rosetta_model_visuals/blob/master/Yangify_uml.png "Logo Title Text 1")
 
-!(Yangify_uml.png)
+### Yangify UML
+Inline-style: 
+![alt text](https://github.com/jabelk/yangify_rosetta_model_visuals/blob/master/yangify_rosetta_translate.png "Logo Title Text 1")
